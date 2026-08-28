@@ -1,5 +1,5 @@
 const { test, expect } = require("@playwright/test");
-test("upload file testing", async ({ page }) => {
+test("upload file testing @smoke", async ({ page }) => {
   await page.goto(
     "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
   );

@@ -1,5 +1,5 @@
 const { test, expect } = require("@playwright/test");
-test("amazon test case @smoke", async ({ page }) => {
+test("amazon test case", async ({ page }) => {
   //my code will be here
 
   await page.goto("https://www.amazon.in/");
